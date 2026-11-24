@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Fabric-Gradle-Version: 8.10.2
+Fabric-Loom-Version: 1.8.11
+Fabric-Mixin-Compile-Extensions: 0.6.0
+

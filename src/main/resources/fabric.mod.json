@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "alice",
+  "version": "1.21.11-alice.12",
+  "name": "ALICE",
+  "description": "Paid Meteor Client addon for Minecraft 1.21.11.",
+  "authors": [
+    "tdungg"
+  ],
+  "contact": {
+    "homepage": "https://dungxip.xyz"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/alice/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.nnpg.alice.AliceAddon"
+    ]
+  },
+  "mixins": [
+    "alice.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25",
+    "modmenu": {
+      "links": {
+        "modmenu.website": "https://dungxip.xyz"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": [
+      ">=1.21.11 <1.22"
+    ],
+    "fabricloader": ">=0.18.2",
+    "meteor-client": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/fabric-screen-api-v1-3.1.7+4ebb5c083e.jar"
+    }
+  ]
+}
